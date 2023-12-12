@@ -67,3 +67,44 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.conatiner-css {
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-css-carrusel {
+  width: 450px;
+  height: 500px;
+  /* background: #79ff20; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0em 1em 2em 1em;
+}
+
+.card-css-1 {
+  background-image: url("./public/img/slider-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-css-2 {
+  background-image: url("./public/img/slider-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-css:hover {
+  background: #59b919;
+}
+
+.carrusel-css-cap {
+  color: #fff;
+  text-align: center;
+}
